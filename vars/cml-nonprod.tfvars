@@ -1,0 +1,13 @@
+environment = "cml-nonprod"
+instance_type = "t2.micro"
+vpc_cidr_block = "10.0.0.0/16"
+publicSubnets1_cidr_block = "10.0.10.0/24"
+publicSubnets2_cidr_block = "10.0.20.0/24"
+privateSubnets1_cidr_block = "10.0.30.0/24"
+privateSubnets2_cidr_block = "10.0.40.0/24"
+region = "us-east-1"
+ami_id = "ami-09d3b3274b6c5d4aa"
+profile = "shubham"
+instanceCount = 1
+vpn_range = ["64.104.44.96/27", "72.163.217.96/27", "72.163.220.0/27","173.38.220.32/27","128.107.241.160/27", "173.36.240.160/27", "173.36.224.108/32","64.104.125.224/27","72.163.0.0/16"]
+bucket_name = "aws-cml-image-store"
