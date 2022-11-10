@@ -23,8 +23,8 @@
             "s3:GetBucketAcl"
          ],
          "Resource": [
-            "arn:aws:s3:::event-tech-vm-export",
-            "arn:aws:s3:::event-tech-vm-export/*"
+            "arn:aws:s3:::event-tech-vm-storage",
+            "arn:aws:s3:::event-tech-vm-storage/*"
          ]
       },
       {
